@@ -1,0 +1,11 @@
+[package]
+name = "wasp"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "wasp"
+path = "lib.rs"
+
+[dependencies]
+system = { path = "engine/system" }
